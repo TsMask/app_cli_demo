@@ -1,0 +1,12 @@
+[package]
+name = "app_cli_demo"
+version = "0.1.0"
+authors = ["TsMask <340112800@qq.com>"]
+edition = "2021"
+description = "构建 CLI 命令行菜单"
+license = "TIM"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argrments = { path = "./argrments" }

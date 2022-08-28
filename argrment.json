@@ -1,0 +1,9 @@
+{
+	"env": "prod",
+	"port": 9910,
+	"flag": 1,
+	"sync": true,
+	"sync_host": ["10.0.0.1:9920"],
+	"sync_thread_num": 3,
+	"file_path": "."
+}
