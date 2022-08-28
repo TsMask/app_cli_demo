@@ -84,6 +84,8 @@ impl Default for Argument {
 
 将命令参数获取后对保持的参数数据结构体进行修改并完成命令行参数菜单，将解析参数后的数据结构体返回出去，就要到主程序里获取返回的数据进行后续的使用了。
 
+**argrments/src/lib.rs**
+
 ````rust
 /// 参数属性值
 pub mod argument;
@@ -224,7 +226,7 @@ pub fn parse_args(args: Vec<String>) -> Option<Argument> {
 
 库 `argrments` crate 都编写完，回到主程序入口 `main` 中进行调用解析命令行菜单参数得到解析参数数据。
 
-**\*src/main.rs**
+**src/main.rs**
 
 ```rust
 use std::env;
